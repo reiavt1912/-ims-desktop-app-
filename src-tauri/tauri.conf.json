@@ -28,6 +28,8 @@
     "category": "DeveloperTool",
     "shortDescription": "IMS Desktop Application",
     "longDescription": "IMS Desktop Application",
-    "icon": []
+    "icon": [
+      "icons/icon.png"
+    ]
   }
 }
