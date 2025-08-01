@@ -55,8 +55,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          projectPath: '.'
-          configPath: './src-tauri/tauri.conf.json'
-          distPath: './dist'
-          iconPath: './src-tauri/icons/icon.png'
-          args: ${{ matrix.args }}
+          includeUpdaterJson: false
