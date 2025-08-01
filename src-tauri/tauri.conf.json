@@ -1,0 +1,33 @@
+{
+  "productName": "IMS",
+  "version": "0.0.0",
+  "identifier": "com.ims.desktop",
+  "build": {
+    "beforeBuildCommand": "npm run build",
+    "beforeDevCommand": "npm run dev",
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:5173"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "IMS",
+        "width": 1200,
+        "height": 800,
+        "resizable": true,
+        "fullscreen": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "category": "DeveloperTool",
+    "shortDescription": "IMS Desktop Application",
+    "longDescription": "IMS Desktop Application",
+    "icon": []
+  }
+}
